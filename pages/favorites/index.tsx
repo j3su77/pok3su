@@ -20,7 +20,7 @@ const FavoritesPage = () => {
             <h3 className={styles["favoritespage__num-favorites"]}>
             Hola <span>{user!.name}</span>, <br />
               {poke.length === 1
-                ? `  <br />Tienes solo un pokemon marcado como favorito`
+                ? ` Tienes solo un pokemon marcado como favorito`
                 : poke.length < 10
                 ? ` Tienes ${poke.length} pokemones marcados como favoritos`
                 : ` ¡WOW! Tienes ${poke.length} pokemones marcados como favoritos, ¡El Equipo Rocket ha sido vencido otra vez! `}{" "}

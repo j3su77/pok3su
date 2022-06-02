@@ -163,7 +163,7 @@ const RegisterUser = () => {
               {...register("password_repeat", {
                 required: "Este campo es requerido",
                 validate: (value) =>
-                  value === password.current || "The passwords do not match",
+                  value === password.current || "Las contraseñas no coinciden",
               })}
             />
             {errors.password_repeat && (
