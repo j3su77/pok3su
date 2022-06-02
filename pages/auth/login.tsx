@@ -63,12 +63,11 @@ const LoginPage = () => {
         password,
         redirect: false,
       });
-      const destination = router.query.p?.toString() || '/';
-      router.replace(destination);
+    
 
       if (!userLog.error) {
         setIsSubmit(false);
-        router.push("/");
+  
       } else {
         setIsSubmit(false);
         setShowError(true);
@@ -77,6 +76,8 @@ const LoginPage = () => {
         console.error("Credentials do not match!", { type: "error" });
         return;
       }
+      const destination = router.query.p?.toString() || '/';
+      router.replace(destination);
     } catch (error) {
       throw new Error("Something is wrong");
     }
