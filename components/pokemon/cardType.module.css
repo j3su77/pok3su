@@ -1,0 +1,9 @@
+
+.card__type {
+    font-size: var(--h2-font-size);
+    color: white;
+    font-weight: 800;
+    padding: .1rem .6rem;
+    border-radius: 10px;
+    border: 3px solid white;
+}

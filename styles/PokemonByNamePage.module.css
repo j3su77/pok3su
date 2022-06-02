@@ -1,0 +1,212 @@
+.pokemonpage {
+    margin: 2rem ;
+    min-height: 100vh;
+}
+
+.pokemonpage__container {
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  grid-template-columns: 1fr;
+}
+.pokemonpage__content-title {
+  position: relative;
+}
+
+.pokemonpage__title {
+  font-size: var(--h1-font-size);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.pokemonpage__form {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.pokemonpage__button-favorite {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  font-size: 3.5rem;
+  color: yellow;
+  cursor: pointer;
+  justify-self: flex-end;
+  align-self: end;
+}
+.info__fav {
+  width: 100%;
+  font-size: 0.7rem;
+  color: var(--title-color);
+  margin-top: -15px;
+}
+
+.pokemonpage__button-favorite-out {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.pokemonpage__content-main-image {
+  width: 80%;
+  display: flex;
+  position: relative;
+  justify-self: center;
+}
+
+.pokemonpage__content-img {
+  border-left: 2px dashed var(--container-color);
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.pokemonpage__height {
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(-90deg);
+}
+
+.pokemonpage__height-text {
+  display: flex;
+  white-space: nowrap;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.pokemonpage__height-text > svg {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  transform: rotate(30deg);
+}
+
+.pokemonpage__weight {
+  text-align: center;
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.pokemonpage__weight > svg {
+  font-size: 1.5rem;
+}
+
+.pokemonpage__content-type {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+  align-self: center;
+  background-color: var(--container-color);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+.pokemonpage__card-type {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.pokemonpage__type-title {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  text-align: center;
+}
+
+.pokemonpage__content-sprites {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  border-bottom: 3px solid white;
+  margin-top: 1rem;
+}
+
+.pokemonpage__content-sprites span {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  border-top: 1px solid rgb(119, 118, 118) !important;
+}
+
+@media screen and (min-width: 767px) {
+  .pokemonpage__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pokemonpage__content-main-information {
+    align-items: flex-start;
+    justify-content: start;
+  }
+}
+
+
+
+
+
+
+
+
+.modal__body {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: #0a0a0a;
+}
+
+ .modal__body-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-semi-bold);
+    margin-top: 1rem;
+}
+
+
+ .modal__content-btns-acceptdeny {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.modal__btn-accept {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: rgb(18, 148, 40);
+  border-radius: 3px;
+  color: #fff;
+  font-weight: var(--font-semi-bold);
+
+  font-size: var(--normal-font-size);
+  border: none;
+  cursor: pointer;
+  font-family: var(--body-font);
+}
+
+ .modal__btn-cancel {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background-color: rgb(189, 42, 42);
+  border-radius: 3px;
+  color: #fff;
+  font-weight: var(--font-semi-bold);
+  font-size: var(--normal-font-size);
+  border: none;
+  cursor: pointer;
+  font-family: var(--body-font);
+
+}

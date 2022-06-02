@@ -1,0 +1,9 @@
+
+.footer__containter {
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-semi-bold);
+    padding: .5rem 0;
+}

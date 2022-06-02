@@ -1,0 +1,21 @@
+.nofavorites__container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+.nofavorites__text {
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+
+.nofavorites__img {
+    width: 250px;
+    height: 200px;
+
+  
+}
+
+.nofavorites__container span {
+    border-radius: .25rem;
+}

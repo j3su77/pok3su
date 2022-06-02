@@ -1,0 +1,23 @@
+export const TYPE_COLOR = {
+  typesPokemon: [
+    {"type": "normal", "color": "#FFF", "esp": "normal" },
+    {"type": "fighting", "color": "#bb5544", "esp": "Lucha" },
+    {"type": "flying", "color": "#blue", "esp": "Volador" },
+    {"type": "poison", "color": "#8b4b77", "esp": "Veneno" },
+    {"type": "ground", "color": "brown" , "esp": "Tierro"},
+    {"type": "rock", "color": "#bbaa66" , "esp": "Roca"},
+    {"type": "bug", "color": "#ab2" , "esp": "Bicho"},
+    {"type": "ghost", "color": "#444363" , "esp": "Fantasma"},
+    {"type": "steel", "color": "#889" , "esp": "Acero"},
+    {"type": "fire", "color": "#d42" , "esp": "Fuego"},
+    {"type": "water", "color": "#39f" , "esp": "Agua"},
+    {"type": "grass", "color": "#68ae28" , "esp": "Planta"},
+    {"type": "electric", "color": "#fec423" , "esp": "Electrico"},
+    {"type": "psychic", "color": "#fd2e80" , "esp": "Psíquico"},
+    {"type": "ice", "color": "#49c4f0" , "esp": "Planta"},
+    {"type": "dragon", "color": "#ff6200" , "esp": "Dragón"},
+    {"type": "dark", "color": "#5f5244" , "esp": "Oscuro"},
+    {"type": "fairy", "color": "#d85ebe" , "esp": "Hada"},
+    {"type": "unknown", "color": "#77c6af" , "esp": "???"},
+  ],
+};
